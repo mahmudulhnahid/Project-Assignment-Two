@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+section{
+    background-image: url(../images/bg.png);
+    background-color: lightsalmon;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;   
+}
+header {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+div{
+    width: 20%;
+    float: left;
+}
+.logo{
+    color: #01215C;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.quote {
+    width: 50%;
+    color: darkred;
+}
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkviolet;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    border-bottom-right-radius: 45px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: #fff;
+    background-color: teal;
+}
+.text {
+    width: 50%;
+    font-size: 14px;
+    margin-top: 20%;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+input{
+    border-radius: 50%;
+    padding: 8px 12px;
+    font-size: 15px;
+    background-color: rosybrown;
+    font-weight: 700;
+}
+.quote{
+    width: 70%;
+    font-family: monospace;
+    font-size: 17px;
+    margin-top: 80px;
+    padding-left: 25px;
+}
